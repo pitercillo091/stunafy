@@ -19,7 +19,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0011 | Tuna Universitaria de Oviedo (Vol. I) | Tuna Universitaria de Oviedo | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0011) |
 | CD0012 | Tuna Universitaria de Oviedo (Vol. II) | Tuna Universitaria de Oviedo | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0012) |
 | CD0013 | 500 Años de Exitos | Tuna Universitaria de Oviedo | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0013) |
-| CD0014 | Certamen de Tunas de Colegios Mayores de Pamplona | Tuna del Colegio Mayor Larraona | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0014) |
+| CD0014 | Certamen de Tunas de Colegios Mayores de Pamplona | Tuna del Colegio Mayor Larraona | Carátula del disco verificada | [Colegio Mayor Larraona](https://larraona.org/) |
 | CD0015 | Certámen 2000 Teleco e Informática | Tuna de Ingenieros de Telecomunicación de Valencia | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0015) |
 | CD0016 | Treinta Años de Ronda | Tuna de Ingenieros Navales de Madrid | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0016) |
 | CD0017 | Tuna de Arquitectura Técnica de Valencia | Tuna de Arquitectura Técnica de Valencia | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0017) |
@@ -72,6 +72,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
 
 
