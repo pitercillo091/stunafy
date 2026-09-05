@@ -27,7 +27,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0019 | Palomar de Arrullo | ParrandBoleros | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0019) |
 | CD0020 | 35 Años de Hermandad Musical |  | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0020) |
 | CD0021 | Gaudeamus Ígitur | Tuna de Distrito de U.N.A. de México | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0021) |
-| CD0022 | Tuna Femenina de la Universidad de los Andes |  | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0022) |
+| CD0022 | Tuna Femenina de la Universidad de los Andes | Tuna Femenina de la Universidad de los Andes | Imagen de agrupación vinculada a su catálogo musical | [Apple Music · TFUA 25 Años](https://music.apple.com/co/album/tfua-25-a%C3%B1os/1339549822) |
 | CD0023 | XII Certamen Empresariales y Económicas | Tuna de Empresariales de Jerez de la Frontera | Foto de agrupación verificada | [Universidad de Cádiz](https://ccsociales.uca.es/tuna-masculina/) |
 | CD0024 | Con el alba partirá… | Tuna de Distrito Universitario de Vitoria-Gasteiz | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0024) |
 | CD0025 | Universitaria de Salamanca vol.1 | Tuna Universitaria de Salamanca | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0025) |
@@ -72,6 +72,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
 
 
