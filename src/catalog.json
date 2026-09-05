@@ -415,7 +415,10 @@
     "size_mb": "1.8",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-8.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -426,7 +429,10 @@
     "size_mb": "1.1",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-4.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -437,7 +443,10 @@
     "size_mb": "1.8",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-3.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -448,7 +457,10 @@
     "size_mb": "1",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-1.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -459,7 +471,10 @@
     "size_mb": "1.3",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-2.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -470,7 +485,10 @@
     "size_mb": "1.39",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-6.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -481,7 +499,10 @@
     "size_mb": "1.5",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-9.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -492,7 +513,10 @@
     "size_mb": "1.39",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-12.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -503,7 +527,10 @@
     "size_mb": "1.3",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-11.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -514,7 +541,10 @@
     "size_mb": "1.39",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-7.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -525,7 +555,10 @@
     "size_mb": "1.8",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-10.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0004",
@@ -536,7 +569,10 @@
     "size_mb": "1.39",
     "audio_url": "https://tuna.upv.es/audio/CD0004/CD0004-5.mp3",
     "availability": "available",
-    "source": "Tuna UPV"
+    "source": "Tuna UPV",
+    "cover_url": "https://tuna.upv.es/audio/CD0004/portada.jpg",
+    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0004",
+    "cover_alt": "Carátula de Esta Noche... Toca"
   },
   {
     "cd_id": "CD0005",
