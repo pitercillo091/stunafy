@@ -1,7 +1,8 @@
 import './styles.css';
 import catalog from './catalog.json';
 
-const logo=`${import.meta.env.BASE_URL}assets/logo-elegido-pandereta-roja.png`, sourceUrl='https://tuna.upv.es/';
+const publicBase=location.hostname.endsWith('github.io')?'/stunafy/':'/';
+const logo=`${publicBase}assets/logo-elegido-pandereta-roja.png`, sourceUrl='https://tuna.upv.es/';
 const useProxy=['localhost','127.0.0.1'].includes(location.hostname);
 const tracks=catalog.map((item,index)=>({...item,index,audio_url:useProxy?item.audio_url.replace('https://tuna.upv.es',''):item.audio_url}));
 const groups=[...new Set(tracks.map(t=>t.group).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
