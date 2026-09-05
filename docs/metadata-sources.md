@@ -64,7 +64,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0057 | Vuelta Abajo en Concierto | Vuelta Abajo | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0057) |
 | CD0058 | Cuba | Vuelta Abajo | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0058) |
 | CD0059 | Toda-Vía | TunAmerica Universitaria de Puerto Rico | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0059) |
-| CD0060 | Tunos Veteranos de Nuevo León AC | Tunos Veteranos de Nuevo León AC | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0060) |
+| CD0060 | Tunos Veteranos de Nuevo León AC | Tunos Veteranos de Nuevo León AC | Foto de agrupación verificada | [Tunos Veteranos de Nuevo León](https://tvna.org.mx/) |
 
 ## Criterio de incorporación
 
@@ -72,5 +72,6 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
 
