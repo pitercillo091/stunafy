@@ -1,6 +1,8 @@
 import './styles.css';
 import catalog from './catalog.json';
 
+const buildVersion='artwork-jaen-20260905-2';
+
 const publicBase=location.hostname.endsWith('github.io')?'/stunafy/':'/';
 const logo=`${publicBase}assets/logo-elegido-pandereta-roja.png`, sourceUrl='https://tuna.upv.es/';
 const useProxy=['localhost','127.0.0.1'].includes(location.hostname);
