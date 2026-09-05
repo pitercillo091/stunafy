@@ -10020,7 +10020,9 @@
     "audio_url": "https://tuna.upv.es/audio/CD0060/CD0060-1.mp3",
     "availability": "available",
     "source": "Tuna UPV",
-    "cover_status": "pending_group_image",
-    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0060"
+    "cover_url": "https://tvna.org.mx/wp-content/uploads/2025/02/Aniversario.jpg",
+    "cover_source_url": "https://tvna.org.mx/",
+    "cover_alt": "Imagen de Tunos Veteranos de Nuevo León AC",
+    "cover_kind": "group_photo"
   }
 ]
