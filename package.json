@@ -1,0 +1,17 @@
+{
+  "name": "stunafy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "node server.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "import:tuna": "python scripts/import-tuna-upv.py",
+    "validate:tuna": "python scripts/validate-catalog.py"
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  }
+}
