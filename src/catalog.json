@@ -4394,8 +4394,10 @@
     "audio_url": "https://tuna.upv.es/audio/CD0028/CD0028-1.mp3",
     "availability": "available",
     "source": "Tuna UPV",
-    "cover_status": "pending_group_image",
-    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0028"
+    "cover_url": "https://tunaemundi.com/images/tunaemundi/logos/AATUC_-_30_aniversario_-_ancho.png",
+    "cover_source_url": "https://tunaemundi.com/publicaciones/sabias/905-la-cuarentuna-de-cordoba-es-la-mas-antigua-del-mundo",
+    "cover_alt": "Imagen de la Cuarentuna de Córdoba (AATUC)",
+    "cover_kind": "group_photo"
   },
   {
     "cd_id": "CD0028",
@@ -4407,8 +4409,10 @@
     "audio_url": "https://tuna.upv.es/audio/CD0028/CD0028-2.mp3",
     "availability": "available",
     "source": "Tuna UPV",
-    "cover_status": "pending_group_image",
-    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0028"
+    "cover_url": "https://tunaemundi.com/images/tunaemundi/logos/AATUC_-_30_aniversario_-_ancho.png",
+    "cover_source_url": "https://tunaemundi.com/publicaciones/sabias/905-la-cuarentuna-de-cordoba-es-la-mas-antigua-del-mundo",
+    "cover_alt": "Imagen de la Cuarentuna de Córdoba (AATUC)",
+    "cover_kind": "group_photo"
   },
   {
     "cd_id": "CD0028",
@@ -4420,8 +4424,10 @@
     "audio_url": "https://tuna.upv.es/audio/CD0028/CD0028-3.mp3",
     "availability": "available",
     "source": "Tuna UPV",
-    "cover_status": "pending_group_image",
-    "cover_source_url": "https://tuna.upv.es/cd?Id_CD=CD0028"
+    "cover_url": "https://tunaemundi.com/images/tunaemundi/logos/AATUC_-_30_aniversario_-_ancho.png",
+    "cover_source_url": "https://tunaemundi.com/publicaciones/sabias/905-la-cuarentuna-de-cordoba-es-la-mas-antigua-del-mundo",
+    "cover_alt": "Imagen de la Cuarentuna de Córdoba (AATUC)",
+    "cover_kind": "group_photo"
   },
   {
     "cd_id": "CD0029",
