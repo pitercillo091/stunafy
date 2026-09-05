@@ -54,7 +54,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0047 | Ponte mi capa y verás | Estudiantina de la Universidad de Guanajuato | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0047) |
 | CD0048 | Tuna de Málaga |  | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0048) |
 | CD0049 | Tuna Universitaria de Compostela |  | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0049) |
-| CD0050 | Sobre la huella… |  | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0050) |
+| CD0050 | Sobre la huella… | Tuna Universitaria de Alcalá de Henares | Carátula verificada; agrupación completada desde la ficha Tuna UPV | [Alcalá Hoy](https://www.alcalahoy.es/2023/05/08/noche-de-ronda-y-zarzuela-con-la-tuna-de-la-universidad-de-alcala/) |
 | CD0051 | Tuna mix | Tuna de Medicina de Murcia | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0051) |
 | CD0052 | Tuna Universitaria de Deusto | Tuna Universitaria de Deusto | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0052) |
 | CD0053 | Tuna Universitaria de Barcelona | Tuna Universitaria de Barcelona | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0053) |
@@ -72,6 +72,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
 
 
