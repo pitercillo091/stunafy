@@ -28,7 +28,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0020 | 35 Años de Hermandad Musical |  | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0020) |
 | CD0021 | Gaudeamus Ígitur | Tuna de Distrito de U.N.A. de México | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0021) |
 | CD0022 | Tuna Femenina de la Universidad de los Andes |  | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0022) |
-| CD0023 | XII Certamen Empresariales y Económicas | Tuna de Empresariales de Jerez de la Frontera | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0023) |
+| CD0023 | XII Certamen Empresariales y Económicas | Tuna de Empresariales de Jerez de la Frontera | Foto de agrupación verificada | [Universidad de Cádiz](https://ccsociales.uca.es/tuna-masculina/) |
 | CD0024 | Con el alba partirá… | Tuna de Distrito Universitario de Vitoria-Gasteiz | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0024) |
 | CD0025 | Universitaria de Salamanca vol.1 | Tuna Universitaria de Salamanca | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0025) |
 | CD0026 | Universitaria de Salamanca vol.2 | Tuna Universitaria de Salamanca | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0026) |
@@ -38,7 +38,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0030 | Canto a Murcia | Tuna de la Facultad de Letras de Murcia | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0030) |
 | CD0031 | El último romántico | Tuna de Ingenieros Técnicos Industriales de Cartagena | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0031) |
 | CD0032 | Tuna de Farmacia de Sevilla | Tuna de Farmacia de Sevilla | Foto de agrupación verificada | [Tunas y Estudiantinas](https://tunasyestudiantinas.com/li-certamem-de-sevilla/) |
-| CD0033 | Grandes Éxitos Volumen VII | Tuna de Empresariales de Jerez de la Frontera | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0033) |
+| CD0033 | Grandes Éxitos Volumen VII | Tuna de Empresariales de Jerez de la Frontera | Foto de agrupación verificada | [Universidad de Cádiz](https://ccsociales.uca.es/tuna-masculina/) |
 | CD0034 | Mujer mediterránea | Tuna de Derecho de Alicante | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0034) |
 | CD0035 | Tuna de Ingenieros Agrónomos y de Montes | Tuna de Ingenieros de Agrónomos y Montes de Córdoba | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0035) |
 | CD0037 | Música en la villa y corte de Madrid vol.2 | Tuna de Ingenieros Aeronáuticos de Madrid | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0037) |
@@ -72,6 +72,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
 
 
