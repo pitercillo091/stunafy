@@ -33,7 +33,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0025 | Universitaria de Salamanca vol.1 | Tuna Universitaria de Salamanca | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0025) |
 | CD0026 | Universitaria de Salamanca vol.2 | Tuna Universitaria de Salamanca | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0026) |
 | CD0027 | Universitaria de Salamanca vol.3 | Tuna Universitaria de Salamanca | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0027) |
-| CD0028 | Tuna de Córdoba | Cuarentuna de Córdoba | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0028) |
+| CD0028 | Tuna de Córdoba | Cuarentuna de Córdoba | Foto de agrupación verificada | [TunaeMundi](https://tunaemundi.com/publicaciones/sabias/905-la-cuarentuna-de-cordoba-es-la-mas-antigua-del-mundo) |
 | CD0029 | II Certamen de Tunas - Ciudad de la Alhambra | Tuna de Distrito de Granada | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0029) |
 | CD0030 | Canto a Murcia | Tuna de la Facultad de Letras de Murcia | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0030) |
 | CD0031 | El último romántico | Tuna de Ingenieros Técnicos Industriales de Cartagena | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0031) |
@@ -72,6 +72,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
 
 
