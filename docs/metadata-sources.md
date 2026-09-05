@@ -37,7 +37,7 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 | CD0029 | II Certamen de Tunas - Ciudad de la Alhambra | Tuna de Distrito de Granada | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0029) |
 | CD0030 | Canto a Murcia | Tuna de la Facultad de Letras de Murcia | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0030) |
 | CD0031 | El último romántico | Tuna de Ingenieros Técnicos Industriales de Cartagena | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0031) |
-| CD0032 | Tuna de Farmacia de Sevilla | Tuna de Farmacia de Sevilla | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0032) |
+| CD0032 | Tuna de Farmacia de Sevilla | Tuna de Farmacia de Sevilla | Foto de agrupación verificada | [Tunas y Estudiantinas](https://tunasyestudiantinas.com/li-certamem-de-sevilla/) |
 | CD0033 | Grandes Éxitos Volumen VII | Tuna de Empresariales de Jerez de la Frontera | Pendiente: buscar foto oficial de la agrupación | [Ficha Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0033) |
 | CD0034 | Mujer mediterránea | Tuna de Derecho de Alicante | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0034) |
 | CD0035 | Tuna de Ingenieros Agrónomos y de Montes | Tuna de Ingenieros de Agrónomos y Montes de Córdoba | Carátula oficial verificada | [Tuna UPV](https://tuna.upv.es/cd?Id_CD=CD0035) |
@@ -72,4 +72,5 @@ La aplicación conserva la procedencia de cada imagen en `cover_source_url`. Las
 - Para discos sin carátula, se buscará una fotografía publicada por la propia tuna, su universidad o una entidad organizadora.
 - Cada futura imagen de agrupación deberá conservar `cover_source_url`, `cover_alt` y el estado de verificación.
 - No se descargan ni se republica material de terceros sin revisar su licencia.
+
 
