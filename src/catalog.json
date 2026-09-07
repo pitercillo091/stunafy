@@ -10548,5 +10548,33 @@
     "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
     "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
     "cover_alt": "Carátula de Tuna de Lopera"
+  },
+  {
+    "cd_id": "TDL747",
+    "album": "XL Certamen de la Tuna de Económicas de Sevilla",
+    "group": "Tuna de Lopera",
+    "number": "747",
+    "title": "Popurrí Minero boliviano — XL Certamen de la Tuna de Económicas de Sevilla",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/actuaciones-xl/popurri-minero-boliviano-xl-tuna-de-lopera.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna de Lopera · actuación XL Certamen de la Tuna de Económicas de Sevilla",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_alt": "Carátula de Tuna de Lopera"
+  },
+  {
+    "cd_id": "TDL748",
+    "album": "XL Certamen de la Tuna de Económicas de Sevilla",
+    "group": "Tuna de Lopera",
+    "number": "748",
+    "title": "Se me olvidó otra vez — XL Certamen de la Tuna de Económicas de Sevilla",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/actuaciones-xl/se-me-olvido-otra-vez-xl-tuna-de-lopera.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna de Lopera · actuación XL Certamen de la Tuna de Económicas de Sevilla",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_alt": "Carátula de Tuna de Lopera"
   }
 ]
