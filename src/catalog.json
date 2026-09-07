@@ -10506,5 +10506,47 @@
     "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
     "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
     "cover_alt": "Carátula de Tuna de Lopera"
+  },
+  {
+    "cd_id": "TDL744",
+    "album": "XL Certamen de la Tuna de Económicas de Sevilla",
+    "group": "Tuna de Lopera",
+    "number": "744",
+    "title": "Calle Primavera — XL Certamen de la Tuna de Económicas de Sevilla",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/actuaciones-xl/calle-primavera-xl-tuna-de-lopera.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna de Lopera · actuación XL Certamen de la Tuna de Económicas de Sevilla",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_alt": "Carátula de Tuna de Lopera"
+  },
+  {
+    "cd_id": "TDL745",
+    "album": "XL Certamen de la Tuna de Económicas de Sevilla",
+    "group": "Tuna de Lopera",
+    "number": "745",
+    "title": "La flor de la canela — XL Certamen de la Tuna de Económicas de Sevilla",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/actuaciones-xl/la-flor-de-la-canela-xl-tuna-de-lopera.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna de Lopera · actuación XL Certamen de la Tuna de Económicas de Sevilla",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_alt": "Carátula de Tuna de Lopera"
+  },
+  {
+    "cd_id": "TDL746",
+    "album": "XL Certamen de la Tuna de Económicas de Sevilla",
+    "group": "Tuna de Lopera",
+    "number": "746",
+    "title": "Popurrí de pasodobles — XL Certamen de la Tuna de Económicas de Sevilla",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/actuaciones-xl/popurri-pasodobles-xl-tuna-de-lopera.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna de Lopera · actuación XL Certamen de la Tuna de Económicas de Sevilla",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
+    "cover_alt": "Carátula de Tuna de Lopera"
   }
 ]
