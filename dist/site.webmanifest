@@ -1,0 +1,12 @@
+{
+  "name": "Stunafy · Música de tuna",
+  "short_name": "Stunafy",
+  "description": "Música de tuna, rondalla y estudiantina.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#101413",
+  "theme_color": "#101413",
+  "icons": [
+    { "src": "./assets/logo-elegido-pandereta-roja.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
