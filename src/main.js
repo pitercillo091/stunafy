@@ -76,13 +76,3 @@ shuffleButton.onclick=()=>{shuffleMode=!shuffleMode;shuffleButton.classList.togg
 repeatButton.onclick=()=>{repeatMode=repeatMode==='off'?'track':repeatMode==='track'?'album':'off';repeatButton.classList.toggle('active',repeatMode!=='off');syncMobilePlayer();repeatButton.textContent=repeatMode==='track'?'↻¹':repeatMode==='album'?'↻▣':'↻';repeatButton.setAttribute('aria-label',repeatMode==='track'?'Repetir canción':repeatMode==='album'?'Repetir disco':'Repetición desactivada');repeatButton.setAttribute('aria-pressed',String(repeatMode!=='off'));};
 function playNext(){if(repeatMode==='track'){audio.currentTime=0;audio.play().catch(()=>{});return;}if(shuffleMode){const playable=tracks.map((t,i)=>({t,i})).filter(x=>x.t.availability!=='missing'&&x.t.availability!=='external'&&x.i!==selected.index);if(playable.length){selectTrack(playable[Math.floor(Math.random()*playable.length)].i);return;}}if(repeatMode==='album'){const albumTracks=tracks.map((t,i)=>({t,i})).filter(x=>x.t.availability!=='missing'&&x.t.availability!=='external'&&x.t.group===selected.group&&x.t.album===selected.album);const pos=albumTracks.findIndex(x=>x.i===selected.index);if(albumTracks.length){selectTrack(albumTracks[(pos+1)%albumTracks.length].i);return;}}selectTrack(findPlayable(selected.index+1,1));}
 document.querySelector('#local-audio').onchange=e=>{const file=e.target.files?.[0];if(!file||localTrackIndex===null)return;const t=tracks[localTrackIndex];t.audio_url=URL.createObjectURL(file);t.availability='local';selectTrack(localTrackIndex);localTrackIndex=null;e.target.value='';render();};
-
-
-
-
-
-
-
-
-
-
