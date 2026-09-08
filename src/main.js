@@ -7,7 +7,7 @@ const supabase=createClient('https://huxtznmeyprkalgivzfg.supabase.co','sb_publi
 let currentUser=null,favoriteIds=new Set(),playlists=[];
 
 const publicBase=location.hostname.endsWith('github.io')?'/stunafy/':'/';
-const logo=`${publicBase}assets/logo-elegido-pandereta-roja.png`, sourceUrl='https://tuna.upv.es/', donationUrl='https://paypal.me/PedroMiguel';
+const logo=`${publicBase}assets/logo-elegido-pandereta-roja.png`, sourceUrl='https://tuna.upv.es/', donationUrl='https://paypal.me/PedroMiguel', bizumNumber='+34622358110', bizumDisplay='+34 622 358 110';
 const useProxy=['localhost','127.0.0.1'].includes(location.hostname);
 const tracks=[...catalog.map((item,index)=>({...item,index,audio_url:useProxy?item.audio_url.replace('https://tuna.upv.es',''):item.audio_url})),{index:catalog.length,cd_id:'SPOTIFY-AAS',number:'1',album:'Perfil oficial en Spotify',title:'Catálogo de Tuna de Antiguos Alumnos Salesianos',group:'Tuna de Antiguos Alumnos Salesianos',audio_url:'',availability:'external',source:'Spotify',external_url:'https://open.spotify.com/intl-es/artist/6uQOoQQrcKkEhk7FHi8R8W',cover_url:logo,cover_alt:'Tuna de Antiguos Alumnos Salesianos en Spotify'}];
 const coverFor=t=>t.cover_url||logo;
@@ -29,7 +29,7 @@ document.querySelector('#app').innerHTML=`<div class="release-banner" id="releas
 const donationCard=document.createElement('section');
 donationCard.className='donation-card';
 donationCard.setAttribute('aria-labelledby','donation-title');
-donationCard.innerHTML=`<div class="paypal-brand" aria-hidden="true"><span>p</span><span>p</span></div><div class="donation-copy"><small>APOYA EL PROYECTO</small><h2 id="donation-title">Colabora con Stunafy</h2><p>Tu aportación ayuda a mantener y hacer crecer este catálogo musical.</p></div><a class="paypal-button" href="${donationUrl}" target="_blank" rel="noopener noreferrer"><span class="paypal-mark" aria-hidden="true">P</span><span>Donar con PayPal</span><span aria-hidden="true">↗</span></a>`;
+donationCard.innerHTML=`<div class="paypal-brand" aria-hidden="true"><span>p</span><span>p</span></div><div class="donation-copy"><small>APOYA EL PROYECTO</small><h2 id="donation-title">Colabora con Stunafy</h2><p>Tu aportación ayuda a mantener y hacer crecer este catálogo musical.</p></div><div class="donation-actions"><a class="paypal-button" href="${donationUrl}" target="_blank" rel="noopener noreferrer"><span class="paypal-mark" aria-hidden="true">P</span><span>Donar con PayPal</span><span aria-hidden="true">↗</span></a><a class="bizum-button" href="tel:${bizumNumber}" aria-label="Enviar un Bizum al número ${bizumDisplay}"><span class="bizum-mark" aria-hidden="true">bizum</span><span>Enviar Bizum</span><strong>${bizumDisplay}</strong></a></div>`;
 document.querySelector('.hero').after(donationCard);
 const authButton=document.querySelector('#auth-button');
 const passwordToggle=document.querySelector('#auth-password-toggle');
