@@ -43,6 +43,8 @@
 /* El anuncio permanece visible sin bloquear el reproductor ni el catálogo. */
 .release-banner{pointer-events:none}.release-banner .release-card{pointer-events:auto}
 .mobile-add-to-playlist{position:absolute;right:38px;bottom:2px;border:0;background:none;color:#fff;font-size:28px;cursor:pointer}
+.playlist-view-head{justify-content:space-between;align-items:center}.playlist-add-tracks{white-space:nowrap;font-size:13px;padding:9px 13px}
+@media(max-width:560px){.playlist-view-head{align-items:flex-start;gap:10px}.playlist-add-tracks{font-size:12px;padding:8px 10px}}
 .sidebar{scrollbar-width:none}.sidebar::-webkit-scrollbar{display:none}
 @media(max-width:680px){
   .sidebar{display:block;background:transparent;border:0;border-radius:0;padding:8px 14px 0;margin:0;overflow:visible}
