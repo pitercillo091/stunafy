@@ -33,6 +33,15 @@ try{const savedPetPreference=localStorage.getItem(petPreferenceKey);petEnabled=s
 document.body.insertAdjacentHTML('beforeend',`<aside class="pet-stage" id="pet-stage" aria-label="Platillera, mascota de Stunafy"><div class="pet-speech" id="pet-speech">¡Hola! Soy Platillera</div><button class="pet-character" id="pet-character" aria-label="Saludar a Platillera"><span class="pet-sprite" id="pet-sprite" style="--pet-image:url('${publicBase}assets/mascots/platillera.webp')"></span></button></aside><button class="pet-toggle" id="pet-toggle" type="button" aria-pressed="${petEnabled}"><span aria-hidden="true">✦</span><span id="pet-toggle-label">${petEnabled?'Ocultar a Platillera':'Activar a Platillera'}</span></button>`);
 const petStage=document.querySelector('#pet-stage'),petSprite=document.querySelector('#pet-sprite'),petSpeech=document.querySelector('#pet-speech'),petToggle=document.querySelector('#pet-toggle');
 const reducePetMotion=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+const petPositionKey='stunafy-platillera-position';
+let petDrag=null,petDragged=false;
+function restorePetPosition(){try{const saved=JSON.parse(localStorage.getItem(petPositionKey)||'null');if(saved&&Number.isFinite(saved.left)&&Number.isFinite(saved.top)){petStage.style.left=`${saved.left}px`;petStage.style.top=`${saved.top}px`;petStage.style.right='auto';petStage.style.bottom='auto';}}catch{}}
+function movePet(clientX,clientY){if(!petDrag)return;const width=petStage.offsetWidth,height=petStage.offsetHeight;const left=Math.max(8,Math.min(window.innerWidth-width-8,clientX-petDrag.offsetX));const top=Math.max(8,Math.min(window.innerHeight-height-92,clientY-petDrag.offsetY));petStage.style.left=`${left}px`;petStage.style.top=`${top}px`;petStage.style.right='auto';petStage.style.bottom='auto';}
+function finishPetDrag(){if(!petDrag)return;try{localStorage.setItem(petPositionKey,JSON.stringify({left:parseFloat(petStage.style.left),top:parseFloat(petStage.style.top)}));}catch{}petStage.classList.remove('dragging');petDrag=null;setTimeout(()=>{petDragged=false;},0);}
+const petCharacter=document.querySelector('#pet-character');
+petCharacter.addEventListener('pointerdown',event=>{if(event.button!==undefined&&event.button!==0)return;const rect=petStage.getBoundingClientRect();petDrag={offsetX:event.clientX-rect.left,offsetY:event.clientY-rect.top,startX:event.clientX,startY:event.clientY};petDragged=false;petCharacter.setPointerCapture?.(event.pointerId);petStage.classList.add('dragging');event.preventDefault();});
+petCharacter.addEventListener('pointermove',event=>{if(!petDrag)return;if(Math.abs(event.clientX-petDrag.startX)>4||Math.abs(event.clientY-petDrag.startY)>4)petDragged=true;movePet(event.clientX,event.clientY);});
+petCharacter.addEventListener('pointerup',()=>finishPetDrag());petCharacter.addEventListener('pointercancel',()=>finishPetDrag());
 function drawPetFrame(row,frame){petSprite.style.backgroundPosition=`${frame*100/7}% ${row*10}%`;}
 function animatePet(name,row,count,delay=180){clearInterval(petTimer);petFrame=0;petSprite.dataset.animation=name;drawPetFrame(row,0);if(reducePetMotion||!petEnabled)return;petTimer=setInterval(()=>{petFrame=(petFrame+1)%count;drawPetFrame(row,petFrame);},delay);}
 function showPetMessage(message){petSpeech.textContent=message;petSpeech.classList.add('visible');clearTimeout(showPetMessage.timer);showPetMessage.timer=setTimeout(()=>petSpeech.classList.remove('visible'),2400);}
@@ -40,8 +49,9 @@ function setPetEnabled(enabled){petEnabled=enabled;petStage.hidden=!enabled;petT
 function startPetParty(){if(!petEnabled)return;clearInterval(petPartyTimer);clearTimeout(petTrickTimer);petStage.classList.remove('kneel-trick');animatePet('dance',7,6,135);showPetMessage('¡Que siga la ronda!');petPartyTimer=setInterval(()=>{if(!petEnabled||audio.paused)return;animatePet('jumping',4,5,135);petTrickTimer=setTimeout(()=>petStage.classList.add('kneel-trick'),420);setTimeout(()=>{petStage.classList.remove('kneel-trick');if(!audio.paused)animatePet('dance',7,6,135);},1250);},5200);}
 function stopPetParty(){clearInterval(petPartyTimer);clearTimeout(petTrickTimer);petStage.classList.remove('kneel-trick');if(petEnabled)animatePet('idle',0,6,260);}
 petToggle.onclick=()=>setPetEnabled(!petEnabled);
-document.querySelector('#pet-character').onclick=()=>{animatePet('waving',3,4,175);showPetMessage(audio?.paused?'¡Elige una canción!':'¡Esta ronda suena genial!');setTimeout(()=>{if(petEnabled)audio?.paused?animatePet('idle',0,6,260):startPetParty();},900);};
+petCharacter.onclick=()=>{if(petDragged)return;animatePet('waving',3,4,175);showPetMessage(audio?.paused?'¡Elige una canción!':'¡Esta ronda suena genial!');setTimeout(()=>{if(petEnabled)audio?.paused?animatePet('idle',0,6,260):startPetParty();},900);};
 setPetEnabled(petEnabled);
+restorePetPosition();
 let authMode='signup';
 const authButton=document.querySelector('#auth-button');
 const passwordToggle=document.querySelector('#auth-password-toggle');
