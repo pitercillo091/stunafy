@@ -1,11 +1,42 @@
 from PIL import Image, ImageOps
 from pathlib import Path
 import json, math
-src=Path(r"C:\Users\pmap1\.codex\generated_images\01a07236-a688-7701-a20d-0cfad10d2b21\exec-d750dd2f-2b0b-4078-8973-1de0e6ded43d.png")
+from collections import deque
+src=Path(r"E:\PROYECTOS\CHAT GPT\Stunafy\design\mascots\tuno-base.png")
 out=Path(r"E:\PROYECTOS\CHAT GPT\Stunafy\public\assets\mascots")
 out.mkdir(parents=True,exist_ok=True)
 im=Image.open(src).convert('RGBA')
+# Remove the checkerboard preview background while preserving enclosed white costume details.
+pix=im.load(); w,h=im.size; q=deque(); seen=set()
+def is_bg(x,y):
+    r,g,b,a=pix[x,y]
+    return a>0 and max(r,g,b)-min(r,g,b)<8 and min(r,g,b)>140
+for x in range(w):
+    for y in (0,h-1):
+        if is_bg(x,y) and (x,y) not in seen: seen.add((x,y)); q.append((x,y))
+for y in range(h):
+    for x in (0,w-1):
+        if is_bg(x,y) and (x,y) not in seen: seen.add((x,y)); q.append((x,y))
+while q:
+    x,y=q.popleft(); r,g,b,a=pix[x,y]; pix[x,y]=(r,g,b,0)
+    for nx,ny in ((x-1,y),(x+1,y),(x,y-1),(x,y+1)):
+        if 0<=nx<w and 0<=ny<h and (nx,ny) not in seen and is_bg(nx,ny):
+            seen.add((nx,ny)); q.append((nx,ny))
 alpha=im.getchannel('A'); bbox=alpha.getbbox(); im=im.crop(bbox)
+# Drop tiny disconnected matte specks left outside the character silhouette.
+pix=im.load(); w,h=im.size; seen=set()
+for sy in range(h):
+    for sx in range(w):
+        if (sx,sy) in seen or pix[sx,sy][3]==0: continue
+        stack=[(sx,sy)]; seen.add((sx,sy)); component=[]
+        while stack:
+            x,y=stack.pop(); component.append((x,y))
+            for nx,ny in ((x-1,y),(x+1,y),(x,y-1),(x,y+1)):
+                if 0<=nx<w and 0<=ny<h and (nx,ny) not in seen and pix[nx,ny][3]>0:
+                    seen.add((nx,ny)); stack.append((nx,ny))
+        if len(component)<80:
+            for x,y in component:
+                r,g,b,a=pix[x,y]; pix[x,y]=(r,g,b,0)
 cell_w,cell_h=192,208
 # Keep a complete body with breathing room inside every cell.
 scale=min((cell_h-8)/im.height,(cell_w-12)/im.width)
