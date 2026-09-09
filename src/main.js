@@ -27,7 +27,7 @@ const donationCard=document.createElement('section');
 donationCard.className='donation-card';
 donationCard.setAttribute('aria-labelledby','donation-title');
 donationCard.innerHTML=`<div class="paypal-brand" aria-hidden="true"><span>p</span><span>p</span></div><div class="donation-copy"><small>APOYA EL PROYECTO</small><h2 id="donation-title">Colabora con Stunafy</h2><p>Tu aportación ayuda a mantener y hacer crecer este catálogo musical.</p></div><div class="donation-actions"><a class="paypal-button" href="${donationUrl}" target="_blank" rel="noopener noreferrer"><span class="paypal-mark" aria-hidden="true">P</span><span>Donar con PayPal</span><span aria-hidden="true">↗</span></a><a class="bizum-button" href="tel:${bizumNumber}" aria-label="Enviar un Bizum al número ${bizumDisplay}"><span class="bizum-mark" aria-hidden="true">bizum</span><span>Enviar Bizum</span></a></div>`;
-document.querySelector('.hero').after(donationCard);
+document.querySelector('.content').append(donationCard);
 const petPreferenceKey='stunafy-platillera-enabled';
 let petEnabled=true,petFrame=0,petTimer=null,petTrickTimer=null,petPartyTimer=null;
 try{const savedPetPreference=localStorage.getItem(petPreferenceKey);petEnabled=savedPetPreference===null?true:savedPetPreference==='true';}catch{}
