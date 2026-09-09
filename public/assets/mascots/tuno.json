@@ -1,0 +1,28 @@
+{
+  "spriteVersionNumber": 2,
+  "id": "tuno",
+  "name": "Tuno",
+  "atlas": "tuno-atlas.png",
+  "appAsset": "tuno.webp",
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "columns": 8,
+  "rows": 11,
+  "states": {
+    "idle": 0,
+    "running-right": 1,
+    "running-left": 2,
+    "waving": 3,
+    "jumping": 4,
+    "failed": 5,
+    "waiting": 6,
+    "capeDance": 7,
+    "review": 8
+  },
+  "lookRows": [
+    9,
+    10
+  ],
+  "source": "User-provided tuno reference plus generated canonical base art",
+  "notes": "Cape dance uses varied body/cape silhouettes and directional sway."
+}
