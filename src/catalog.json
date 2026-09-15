@@ -10576,5 +10576,61 @@
     "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
     "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-de-lopera/portada-tuna-lopera.jpg",
     "cover_alt": "Carátula de Tuna de Lopera"
+  },
+  {
+    "cd_id": "CD0004-AYH2020",
+    "album": "Esta Noche... Toca · Ayer y Hoy México 2020",
+    "group": "Tuna de Ingenieros Técnicos Industriales de Jaén",
+    "number": "1",
+    "title": "Jota de Dolores",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/jota%20dolores.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna Ingenieros Tecnicos Industriales de Jaen.",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_alt": "Carátula de Esta Noche... Toca · Ayer y Hoy México 2020"
+  },
+  {
+    "cd_id": "CD0004-AYH2020",
+    "album": "Esta Noche... Toca · Ayer y Hoy México 2020",
+    "group": "Tuna de Ingenieros Técnicos Industriales de Jaén",
+    "number": "2",
+    "title": "La Jota de la Dolores",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/Peritos%20de%20Jaen%20-%20La%20Jota%20de%20la%20Dolores.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna Ingenieros Tecnicos Industriales de Jaen.",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_alt": "Carátula de Esta Noche... Toca · Ayer y Hoy México 2020"
+  },
+  {
+    "cd_id": "CD0004-AYH2020",
+    "album": "Esta Noche... Toca · Ayer y Hoy México 2020",
+    "group": "Tuna de Ingenieros Técnicos Industriales de Jaén",
+    "number": "3",
+    "title": "Amor y Fiesta",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/Tuna%20de%20peritos%20de%20jaen%20-%20Amor%20y%20fiesta.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna Ingenieros Tecnicos Industriales de Jaen.",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_alt": "Carátula de Esta Noche... Toca · Ayer y Hoy México 2020"
+  },
+  {
+    "cd_id": "CD0004-AYH2020",
+    "album": "Esta Noche... Toca · Ayer y Hoy México 2020",
+    "group": "Tuna de Ingenieros Técnicos Industriales de Jaén",
+    "number": "4",
+    "title": "Popurrí de Isas",
+    "audio_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/Tuna%20de%20peritos%20de%20Jaen%20-%20popurri%20de%20isas.mp3",
+    "availability": "available",
+    "source": "Supabase Storage",
+    "source_note": "Importación autorizada desde la carpeta Tuna Ingenieros Tecnicos Industriales de Jaen.",
+    "cover_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_source_url": "https://huxtznmeyprkalgivzfg.supabase.co/storage/v1/object/public/stunafy-media/tuna-ingenieros-jaen-ayer-y-hoy/ayeryhoymexico2020b.jpg",
+    "cover_alt": "Carátula de Esta Noche... Toca · Ayer y Hoy México 2020"
   }
 ]
