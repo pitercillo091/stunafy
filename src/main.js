@@ -1,6 +1,7 @@
 import './styles.css';
 import catalog from './catalog.json';
 import { createClient } from '@supabase/supabase-js';
+import { connectMediaSession } from './media-session.js';
 
 const buildVersion='artwork-jaen-20260905-2';
 const supabase=createClient('https://huxtznmeyprkalgivzfg.supabase.co','sb_publishable_9BU9wWiKAYvdWEXL5FKOkQ_5YPIFNsq');
@@ -115,4 +116,11 @@ const shuffleButton=document.querySelector('#shuffle'),repeatButton=document.que
 shuffleButton.onclick=()=>{shuffleMode=!shuffleMode;if(shuffleMode&&playbackQueue.length){const current=selected.index;const rest=playbackQueue.filter(index=>index!==current).sort(()=>Math.random()-.5);playbackQueue=[current,...rest];playbackQueuePosition=0;}shuffleButton.classList.toggle('active',shuffleMode);syncMobilePlayer();shuffleButton.setAttribute('aria-pressed',String(shuffleMode));};
 repeatButton.onclick=()=>{repeatMode=repeatMode==='off'?'track':repeatMode==='track'?'album':'off';repeatButton.classList.toggle('active',repeatMode!=='off');syncMobilePlayer();repeatButton.textContent=repeatMode==='track'?'↻¹':repeatMode==='album'?'↻▣':'↻';repeatButton.setAttribute('aria-label',repeatMode==='track'?'Repetir canción':repeatMode==='album'?'Repetir disco':'Repetición desactivada');repeatButton.setAttribute('aria-pressed',String(repeatMode!=='off'));};
 function playNext(){if(repeatMode==='track'){audio.currentTime=0;audio.play().catch(()=>{});return;}if(playbackQueue.length){const nextPosition=playbackQueuePosition+1;if(nextPosition<playbackQueue.length){selectTrack(playbackQueue[nextPosition]);return;}if(repeatMode==='album'){selectTrack(playbackQueue[0]);return;}audio.pause();return;}if(shuffleMode){const playable=tracks.map((t,i)=>({t,i})).filter(x=>isPlayableIndex(x.i)&&x.i!==selected.index);if(playable.length){selectTrack(playable[Math.floor(Math.random()*playable.length)].i);return;}}if(repeatMode==='album'){const albumTracks=tracks.map((t,i)=>({t,i})).filter(x=>isPlayableIndex(x.i)&&x.t.group===selected.group&&x.t.album===selected.album);const pos=albumTracks.findIndex(x=>x.i===selected.index);if(albumTracks.length){selectTrack(albumTracks[(pos+1)%albumTracks.length].i);return;}}selectTrack(findPlayable(selected.index+1,1));}
+connectMediaSession({
+  audio,
+  resume:()=>audio.src?audio.play():selectTrack(selected.index),
+  previous:()=>document.querySelector('#prev').click(),
+  next:()=>document.querySelector('#next').click(),
+  getMetadata:()=>({title:selected.title,artist:selected.group||'Stunafy',album:selected.album||'',artwork:[{src:resolveAssetUrl(coverFor(selected))}]}),
+});
 document.querySelector('#local-audio').onchange=e=>{const file=e.target.files?.[0];if(!file||localTrackIndex===null)return;const t=tracks[localTrackIndex];t.audio_url=URL.createObjectURL(file);t.availability='local';selectTrack(localTrackIndex);localTrackIndex=null;e.target.value='';render();};
